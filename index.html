@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/framework.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="p-5">
+
+    <h3>PESO DI AVER MAGIAO TROPPO FORMAGGIO</h3>
+    <div class="container-fluid">
+        <!-- RIGA SOPRA -->
+
+        <div class="card mb-5">
+            <div class="card-header fs-3 bg-pink fw-bold">
+                INSERISCI I DATI
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="mb-3 nome">inserisci il tuo nome e cognome</div>
+                        <input type="text" id="nome" placeholder="Nome Cognome">
+                    </div>
+                    <div class="col-4">
+                        <div class="mb-3 nome">inserisci la tua eta</div>
+                        <input type="number" id="anni" placeholder="età">
+                    </div>
+                    <div class="col-4">
+                        <div class="mb-3 nome">inserisci la disanza che desideri percorrere</div>
+                        <input type="number" id="distanza" placeholder="distanza in Km">
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="col-4 offset-4 mt-5" onclick="calcPrice()">Calcola il costo del viaggio</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGA SOTTO -->
+        <div class="card">
+            <div class="card-header bg-pink fs-3 fw-bold">
+                IL TUO BIGLIETTO
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        DETTAGLI PASSEGGERI
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">placeholder nome</div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-4 debug">
+                                <div>
+                                    offerta
+                                </div>
+                            </div>
+                            <div class="col-2 debug">
+                                <div>
+                                    carrozzza
+                                </div>
+                            </div>
+                            <div class="col-2 debug">
+                                <div>
+                                    Codice CP
+                                </div>
+                            </div>
+                            <div class="col-4 debug">
+                                <div>
+                                    Costo biglietto
+                                </div>
+                                <div id="demo">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <p id="demo"></p> -->
+
+
+
+</body>
+<script type="text/javascript" src="script/myscript.js"></script>
+
+</html>

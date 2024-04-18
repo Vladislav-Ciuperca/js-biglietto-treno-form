@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 2px dashed red;
+    min-height: 1rem;
+}
+
+body {
+    background: lightskyblue;
+    text-align: center;
+    margin-top: 15rem;
+    /* display: flex; */
+}
+
+.nome {
+    /* font-size: 2rem; */
+    font-weight: bold;
+}
+
+/* my colores */
+
+.bg-pink {
+    background: #b914509f;
+}
