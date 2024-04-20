@@ -1,4 +1,4 @@
-function calcPrice() {
+function azione() {
     let anni = document.getElementById("anni").value;
     let distance = document.getElementById("distanza").value;
     let baseprice = distance * 0.21;
